@@ -1,0 +1,26 @@
+{
+  "name": "wechat",
+  "version": "0.1.0",
+  "description": "wechat",
+  "main": "main.js",
+  "scripts": {
+    "start": "electron .",
+    "packageLinux": "electron-packager ./ wechat   --out ./dist/  --platform=linux --arch=x64 --app-version 0.1.0 --overwrite --icon=./app/wechat.png"
+  },
+  "repository": "",
+  "keywords": [
+    "Electron",
+    "quick",
+    "start",
+    "tutorial",
+    "demo"
+  ],
+  "author": "Pydes",
+  "license": "CC0-1.0",
+  "devDependencies": {
+    "electron": "^3.0.7"
+  },
+  "dependencies": {
+    "electron-packager": "^13.0.1"
+  }
+}
